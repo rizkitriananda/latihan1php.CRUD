@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 80px auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+header h1 {
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+form {
+  width: 500px;
+  margin: 20px auto;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 550px;
+  margin: 20px auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li label {
+  font-size: 18px;
+}
+
+li input {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+li input:focus {
+  background-color: lightgrey;
+  outline: none;
+  border: 1px solid black;
+}
+
+li input,
+li label {
+  margin-top: 10px;
+}
+
+ul li:nth-child(7) {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+li button {
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #fff;
+  border: 2px solid darkgray;
+}
+
+.btn-back {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+}
+
+.btn-back a {
+  text-decoration: none;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}
